@@ -2,6 +2,26 @@ var problems = [];
 var currentProblem = 0;
 var guideSlug = 'crew_30c3';
 
+
+var problems2questions = {
+  youtube: [1],
+  imagesharing: [58],
+  filesharingconfusion: [80],
+  drm: [13, 64],
+  mediacountry: [21],
+  remix: [23],
+  subtitle: [80],
+  fanfiction: [23],
+  stolencontent: [72, 74],
+  takedown: [80],
+  affordmedia: [20],
+  travel: [22],
+  cclicense: [15],
+  enforcement: [77],
+  links: [11]
+};
+
+
 function start(btn) {
   $('input[type=checkbox]').each(function(i, cb) {
     if (cb.checked) {
