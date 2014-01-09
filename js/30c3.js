@@ -7,7 +7,8 @@ var problems2questions = {
   youtube: [1],
   imagesharing: [58],
   filesharingconfusion: [80],
-  drm: [13, 64],
+  drm: [64],
+  resell: [13],
   mediacountry: [21],
   remix: [23],
   subtitle: [80],
@@ -18,7 +19,8 @@ var problems2questions = {
   travel: [22],
   cclicense: [15],
   enforcement: [77],
-  links: [11]
+  links: [11],
+  duration: [20]
 };
 
 
