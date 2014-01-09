@@ -25,6 +25,10 @@ var problems2questions = {
 
 
 function start(btn) {
+  $('.download-document').click(function(){
+    var data = EUCopyright.collectData();
+    EUCopyright.compile(data, EUCopyright.settings).done(EUCopyright.createDownload);
+  });
   $('input[type=checkbox]').each(function(i, cb) {
     if (cb.checked) {
       var isDuplicate = false;

@@ -1,3 +1,4 @@
 _site/
 Gemfile.lock
 .bundle/install.log
+node_modules/

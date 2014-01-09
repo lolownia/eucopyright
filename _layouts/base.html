@@ -6,11 +6,15 @@
   {% if page.icon %}<meta property="og:image" content="{{ site.baseurl}}{{ page.icon }}" />{% endif %}
 
   <title>{{ page.title }}</title>
-
+  <script>
+    if (document.location.hostname.indexOf('okfde.github.io') !== -1) {
+      document.location.replace('http://{{ site.domain }}/' + document.location.pathname.split('/').slice(2).join('/'));
+    }
+  </script>
   <link rel="stylesheet" href="{{ site.baseurl}}/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ site.baseurl}}/css/style.css">
   <link rel="shortcut icon" href="{{ site.baseurl}}/img/favicon.png" />
-
+  <script type="text/javascript" src="{{ site.baseurl}}/js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -74,10 +78,10 @@
   };
 </script>
 
-<script type="text/javascript" src="{{ site.baseurl}}/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl}}/js/autogrow.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl}}/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl}}/js/jszip.js"></script>
+<script type="text/javascript" src="{{ site.baseurl}}/js/odtprocessor.js"></script>
 <script type="text/javascript" src="{{ site.baseurl}}/js/eucopyright.js"></script>
 
 <script type="text/javascript">

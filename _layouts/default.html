@@ -5,12 +5,35 @@ layout: base
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
-    <a class="navbar-brand" href="/">
-      {{ page.headline }}
-    </a>
-    <button type="submit" class="download-document nav-btn btn btn-success">
-      &rarr; {{ page.downloadaction }}
-    </button>
+    <div class="nav navbar-left">
+      <a class="navbar-brand" href="/">
+        {{ page.headline }}
+      </a>
+    </div>
+    <div class="nav navbar-left">
+      <button type="submit" class="submit-form nav-btn btn btn-success hide">
+        &rarr; {{ page.downloadaction }}
+      </button>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <span class="flag flag-{{ page.language }}"></span> <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          {% for lang in site.languages %}
+            {% if lang != page.language %}
+              <li>
+                <a href="{{ site.baseurl }}/{{ lang }}/">
+                  <span class="flag flag-{{ lang }}"></span>
+                  {{ site.data.translations.replyInLanguage[lang] }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
   </div>
 </nav>
 
@@ -26,20 +49,6 @@ layout: base
 
   {{ content }}
 
-  <div class="row footer-row">
-    <div class="col-lg-12">
-      <hr/>
-      <div class="row">
-        <div class="col-lg-6">
-          <a href="https://github.com/okfde/eucopyright">Code on GitHub</a>
-        </div>
-        <div class="col-lg-6 text-right">
-          <a href="http://www.okfn.de/">
-            <img src="{{ site.baseurl}}/img/okf.png" alt="Open Knowledge Foundation Germany"/>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include footer.html %}
 </div> <!-- /.container -->
 
