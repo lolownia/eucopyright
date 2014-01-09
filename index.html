@@ -11,26 +11,28 @@ language: en
     
     <h1>Help reform copyright!</h1>
 
-    <p><strong>The European Commission wants to hear your opinion</strong> on copyright reform. On this site we're making it easy for you to respond to the <a href="http://ameliaandersdotter.eu/copyright-consultation-model-responses">official EU consultation</a> by filtering out the questions that don't apply to you. Together we can make our opinions and experiences heard!</p>
-    <p><small>One more thing: You can answer the question in any of the <a href="http://en.wikipedia.org/wiki/Languages_of_the_European_Union">24 European languages</a> you are comfortable with!</small></p>
+    <p><strong>The European Commission wants to hear your opinion</strong> on copyright reform. The aim of this site is to make it easier for you to respond to the <a href="http://ameliaandersdotter.eu/copyright-consultation-model-responses">official EU consultation</a> by filtering out the questions that do not relate to you directly. Together we can make our opinions and experiences heard!</p>
+    <p><small>One more thing: You can answer the question in any of the <a href="http://en.wikipedia.org/wiki/Languages_of_the_European_Union">24 official European languages</a> you are comfortable with!</small></p>
     
     <h2>Which of these problems have you encountered with copyright in the EU?</h2>
     <ul>
-      {% include problem.html key="youtube" text="YouTube videos not playable in my country" %}
-      {% include problem.html key="imagesharing" text="Confused about legality of sharing images on Facebook, Tumblr, etc" %}
-      {% include problem.html key="filesharingconfusion" text="Confused about legality of filesharing/torrenting or even got in trouble because of filesharing/torrenting" %}
-      {% include problem.html key="drm" text="Could not freely use media I bought because of DRM, in fact had less freedom than I would have offline/in the analog world" %}
-      {% include problem.html key="mediacountry" text="Certain media not available to buy in my country or a website I wanted to use was blocked in my country" %}
-      {% include problem.html key="remix" text="Don't dare make a remix because of fear of repercussions" %}
-      {% include problem.html key="subtitle" text="Confused about legality of subtitling, translating, converting, etc. media" %}
+      {% include problem.html key="youtube" text="YouTube videos are not available/playable in my country" %}
+      {% include problem.html key="imagesharing" text="I am confused about legality of sharing images on Facebook, Tumblr, etc" %}
+      {% include problem.html key="filesharingconfusion" text="I am confused about legality of filesharing/torrenting and/or I have even gotten in trouble because of filesharing/torrenting" %}
+	  {% include problem.html key="drm" text="I could not freely use media I bought because of DRM. In fact I had less control and freedom of the media than I would have in offline/analog world." %}
+      {% include problem.html key="resell" text="I have spent a lot of money on digital music tracks and books, but I cannot sell the ones I no longer want / need." %}
+      {% include problem.html key="mediacountry" text="Certain media was not available for me to buy in my country and/or a website I wanted to use was blocked in my country" %}
+      {% include problem.html key="remix" text="I don't dare to make a remix because of fear of repercussions" %}
+      {% include problem.html key="subtitle" text="I am confused about legality of subtitling, translating or converting media" %}
       {% include problem.html key="fanfiction" text="My fan fiction or fan art might be illegal" %}
-      {% include problem.html key="stolencontent" text="Someone stole my content OMFG" %}
-      {% include problem.html key="takedown" text="Provided a web service that was confronted with takedown notices and complaints (my Youtube/Vimeo video was blocked)" %}
+      {% include problem.html key="stolencontent" text="My content was copied without my permission" %}
+      {% include problem.html key="takedown" text="My web service has been confronted with takedown notices and complaints because of potential copyright infringement." %}
       <!--{% include problem.html key="affordmedia" text="I can't afford buying media and feel socially excluded" %}-->
       {% include problem.html key="travel" text="When I travel to another member state, I am unsure how local copyright laws differ from at home" %}
       <!--{% include problem.html key="cclicense" text="Collection society doesn't allow me to release my music under a Creative Commons license" %}-->
-      {% include problem.html key="enforcement" text="I have made the experience that copyright enforcement puts the interests of rightholders above those of citizens" %}
-      {% include problem.html key="links" text="Confused about legality of sharing links to content under copyright protection" %}
+	  {% include problem.html key="enforcement" text="I have found that copyright enforcement puts the interests of rightholders above those of citizens." %}
+      {% include problem.html key="links" text="I am confused about legality of sharing links to content under copyright protection" %}
+      {% include problem.html key="duration" text="I feel like copyright duration is excessively long" %}
     </ul>
 
     <a href="javascript:void(0)" class="btn btn-primary btn-lg" onclick="start(this)">Continue &raquo;</a>
