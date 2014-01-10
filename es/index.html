@@ -1,250 +1,109 @@
 ---
-layout: default
-title: Public Consultation on the review of the EU copyright rules
-headline: EU Copyright Consultation
-downloadaction: Download Finished Document
+layout: base
+title: "Help reform copyright!"
+icon: /img/30c3/icon.png
 language: es
 ---
+<style type="text/css"> @import "../css/30c3.css"; </style>
+<style type="text/css"> @import "../css/font-awesome.min.css"; </style>
+<script type="text/javascript" src="../js/30c3.js"></script>
+<script type="text/javascript">
+  var guideSlug = 'crew_30c3_es'
+</script>
 
-<div class="row header-row">
-  <div class="col-lg-8">
-    <h1>
-      <small>Inofficial web form for the</small><br/>
-        Public Consultation<br/>
-        on the review of the EU copyright rules
-    </h1>
+<div class="container step-start">
+  <div id="step-start" class="jumbotron">
+    
+    <h1>Help reform copyright!</h1>
+
+    <p><strong>The European Commission wants to hear your opinion</strong> on copyright reform. The aim of this site is to make it easier for you to respond to the <a href="http://ameliaandersdotter.eu/copyright-consultation-model-responses">official EU consultation</a> by filtering out the questions that do not relate to you directly. Together we can make our opinions and experiences heard!</p>
+    <p><small>One more thing: You can answer the question in any of the <a href="http://en.wikipedia.org/wiki/Languages_of_the_European_Union">24 official European languages</a> you are comfortable with!</small></p>
+    
+    <h2>Which of these problems have you encountered with copyright in the EU?</h2>
+    <ul>
+      {% include problem.html key="youtube" text="YouTube videos are not available/playable in my country" %}
+      {% include problem.html key="imagesharing" text="I am confused about legality of sharing images on Facebook, Tumblr, etc" %}
+      {% include problem.html key="filesharingconfusion" text="I am confused about legality of filesharing/torrenting and/or I have even gotten in trouble because of filesharing/torrenting" %}
+	  {% include problem.html key="drm" text="I could not freely use media I bought because of DRM. In fact I had less control and freedom of the media than I would have in offline/analog world." %}
+      {% include problem.html key="resell" text="I have spent a lot of money on digital music tracks and books, but I cannot sell the ones I no longer want / need." %}
+      {% include problem.html key="mediacountry" text="Certain media was not available for me to buy in my country and/or a website I wanted to use was blocked in my country" %}
+      {% include problem.html key="remix" text="I don't dare to make a remix because of fear of repercussions" %}
+      {% include problem.html key="subtitle" text="I am confused about legality of subtitling, translating or converting media" %}
+      {% include problem.html key="fanfiction" text="My fan fiction or fan art might be illegal" %}
+      {% include problem.html key="stolencontent" text="My content was copied without my permission" %}
+      {% include problem.html key="takedown" text="My web service has been confronted with takedown notices and complaints because of potential copyright infringement." %}
+      <!--{% include problem.html key="affordmedia" text="I can't afford buying media and feel socially excluded" %}-->
+      {% include problem.html key="travel" text="When I travel to another member state, I am unsure how local copyright laws differ from at home" %}
+      <!--{% include problem.html key="cclicense" text="Collection society doesn't allow me to release my music under a Creative Commons license" %}-->
+	  {% include problem.html key="enforcement" text="I have found that copyright enforcement puts the interests of rightholders above those of citizens." %}
+      {% include problem.html key="links" text="I am confused about legality of sharing links to content under copyright protection" %}
+      <!--{% include problem.html key="duration" text="I feel like copyright duration is excessively long" %}-->
+    </ul>
+
+    <a href="javascript:void(0)" class="btn btn-primary btn-lg" onclick="start(this)">Continue &raquo;</a>
+
+    <p><br /><small>Would you like to <a href="http://youcan.fixcopyright.eu/">respond to the full 80-question consultation</a> rather than this simplified form? It's not necessary to answer all the questions.</small></p>
   </div>
-  <div class="col-lg-4">
+
+  <div id="step-problem" class="jumbotron">
+    <p>Your problem:</p>
+    <h2></h2>
+    <p>This problem relates to the following question(s) in the consultation:</p>
+    <div id="problem"></div>
+    <a id="next" href="javascript:void(0)" class="btn btn-primary btn-lg" onclick="step()">Next problem &raquo;</a>
+    <div class="form-group give-name" style="display:none">
+      <label for="name">Your name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      <p class="help-block">
+        Please note that your contributions <strong>will be published online</strong> by the EU!<br />
+        You don't have to give your name, but it is recommended.
+      </p>
+    </div>
+    <a href="javascript:void(0)" class="download-document btn btn-primary btn-lg">Send answers &raquo;</a>
+  </div>
+
+  <div id="step-end" class="jumbotron">
+    <h2>Now send your feedback to the European Commission</h2>
+
+    <!-- prefilled fields -->
+    <input type="hidden" name="typeofrespondent" value="enduser" checked>
+    <input type="hidden" class="form-control" id="register-id" placeholder="Register ID">
+
+    <ol>
+      <li>
+        <a id="download" href="javascript:void(0)" class="btn btn-primary btn-lg" onclick="">Download response file</a>
+      </li>
+      <li>
+        <a href="mailto:markt-copyright-consultation@ec.europa.eu?subject={{ "My contribution to the copyright consultation" | uri_escape }}&body={{ "PLEASE MAKE SURE THE FILE consultation-document_en.odt WHICH YOU DOWNLOADED IS ATTACHED TO THIS EMAIL AND REMOVE THIS NOTICE" | uri_escape }}" target="_blank" class="btn btn-primary btn-lg">Send the downloaded document by email</a> to
+        <input size="43" value="markt-copyright-consultation@ec.europa.eu" onclick="this.select()" />
+        <p>
+          <small>The <a href="http://ec.europa.eu/internal_market/consultations/2013/copyright-rules/docs/privacy-statement_en.pdf">Privacy statement of the European Commission</a> applies.</small>
+        </p>
+      </li>
+    </ol>
+
+    <h2>Thanks for helping advocate for copyright reform!</h2>
+
+    <p>Would you share this page with your friends? The more responses the EU gets, the better the reform will be.</p>
+	
+	<ul class="fa-ul">
+		<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcopywrongs.eu%2F&t=Answer+to+the+EU+Commission+copyright+consultation" target="_blank"><i class="fa fa-facebook-square"></i> Share on Facebook</a></li>
+		<li><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.copywrongs.eu&via=copywrongs&text=Reply%20to%20the%20EC%20copyright%20consultation&related=copywrongs" target="_blank"><i class="fa fa-twitter-square"></i> Share on Twitter</a></li>
+		<li><a href="https://plus.google.com/share?url=http://copywrongs.eu/" target="_blank"><i class="fa fa-google-plus-square"></i> Share on Google+</a></li>
+	</ul>
+
+  </div>
+
+  <div id="credits">
+	  Contact us <a href="mailto:hello@copywrongs.eu">via email</a>, 
+	  or <a href="https://twitter.com/CopyWrongs">on Twitter</a> &middot; made at <a href="https://events.ccc.de/congress/2013/"><img src="../img/30c3/30c3.png" width="100" /></a> &middot;
+	Uses <a href="http://fontawesome.io/">Font Awesome</a>.
+	  <a href="https://github.com/PPOE/eucopyright"><i class="fa fa-github"></i> Fork on GitHub</a>
   </div>
 </div>
-<div class="row">
 
-  <div class="col-lg-3 col-md-3">
-    <div class="side-navbar">
-      <ul class="nav">
-        <li>
-          <a href="#intro">Introduction</a>
-        </li>
-        <li>
-          <a href="#rights-single-market">
-            Rights and the functioning of the Single Market
-          </a>
-        </li>
-        <li>
-          <a href="#private-copying-and-reprography">
-            Private copying and reprography
-          </a>
-        </li>
-        <li>
-          <a href="#fair-remunerations-of-authors-and-performers">
-            Fair remuneration of authors and performers
-          </a>
-        </li>
-        <li>
-          <a href="#respect-for-rights">
-            Respect for rights
-          </a>
-        </li>
-        <li>
-          <a href="#a-single-eu-cooyright-title">
-            A single EU Copyright Title
-          </a>
-        </li>
-        <li>
-          <a href="#other-issues">
-            Other issues
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-lg-9 col-md-9">
-
-  <form id="consultation-form" method="post" action="{{ site.document_service }}?redirect=http%3a//{{ site.domain }}/{{ page.language }}/thanks.html">
-    <input type="hidden" name="language" value="{{ page.language }}"/>
-
-  {% include en/intro.html %}
-
-  <section class="question-section">
-    <div class="page-header">
-      <h2 id="rights-single-market">
-        Rights and the functioning of the Single Market
-        <br/>
-        <small>
-          Why is it not possible to access many online content services from anywhere in Europe?
-        </small>
-      </h2>
-    </div>
-    <h3>The territorial scope of the rights involved in digital transmissions and the segmentation of the market through licensing agreements</h3>
-
-    {% for question_num in (1..7) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>
-      Is there a need for more clarity as regards the scope of what needs to be authorised (or not) in digital transmissions?
-    </h3>
-    <h4>
-      The definition of the rights involved in digital transmissions
-    </h4>
-
-    {% for question_num in (8..9) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h4>Two rights involved in a single act of exploitation</h4>
-    {% for question_num in (10..10) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h4>Linking and browsing</h4>
-    {% for question_num in (11..12) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h4>Download to own digital content</h4>
-
-    {% for question_num in (13..14) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>Registration of work and other subject matter – is it a good idea?</h3>
-    {% for question_num in (15..18) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>How to improve the use and interoperability of identifiers</h3>
-    {% for question_num in (19..19) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>Term of protection – is it appropriate?</h3>
-    {% for question_num in (20..20) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-  </section>
-
-  <section class="question-section">
-    <div class="page-header">
-      <h2 id="limitations-single-market">
-        Limitations and exceptions in the Single Market
-      </h2>
-    </div>
-
-    {% for question_num in (21..27) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>Acces to content in libraries and archives</h3>
-    {% for question_num in (28..31) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h4>Off-premises access to library collections</h4>
-    {% for question_num in (32..35) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h4>E-Lending</h4>
-    {% for question_num in (36..39) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h4>Mass digitisation</h4>
-    {% for question_num in (40..41) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>Teaching</h3>
-    {% for question_num in (42..46) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>Research</h3>
-    {% for question_num in (47..49) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>Disabilities</h3>
-    {% for question_num in (50..52) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>Text and data mining</h3>
-    {% for question_num in (53..57) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-    <h3>User-generated content</h3>
-    {% for question_num in (58..63) %}
-      {% include question_loop.html %}
-    {% endfor %}
-  </section>
-
-
-  <section class="question-section">
-    <div class="page-header">
-      <h2 id="private-copying-and-reprography">
-        Private copying and reprography
-      </h2>
-    </div>
-    {% for question_num in (64..71) %}
-      {% include question_loop.html %}
-    {% endfor %}
-
-  </section>
-
-  <section class="question-section">
-    <div class="page-header">
-      <h2 id="fair-remunerations-of-authors-and-performers">
-        Fair remuneration of authors and performers
-      </h2>
-    </div>
-    {% for question_num in (72..74) %}
-      {% include question_loop.html %}
-    {% endfor %}
-  </section>
-
-  <section class="question-section">
-    <div class="page-header">
-      <h2 id="respect-for-rights">
-        Respect for rights
-      </h2>
-    </div>
-    {% for question_num in (75..77) %}
-      {% include question_loop.html %}
-    {% endfor %}
-  </section>
-
-  <section class="question-section">
-    <div class="page-header">
-      <h2 id="a-single-eu-cooyright-title">
-        A single EU Copyright Title
-      </h2>
-    </div>
-    {% for question_num in (78..79) %}
-      {% include question_loop.html %}
-    {% endfor %}
-  </section>
-
-  <section class="question-section">
-    <div class="page-header">
-      <h2 id="other-issues">
-        Other issues
-      </h2>
-    </div>
-    {% for question_num in (80..80) %}
-      {% include question_loop.html %}
-    {% endfor %}
-  </section>
-  <button type="submit" class="submit-form btn btn-success">
-    &rarr; {{ page.downloadaction }}
-  </button>
-
-  </form>
-
-  </div>
-</div> <!-- /.row -->
-
-{% include en/download_modal.html %}
+<div id="questions"><!-- visually hidden -->
+{% for question in site.data.questions %}
+  {% include question_only.html %}
+{% endfor %}
+</div>
