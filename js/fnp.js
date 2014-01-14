@@ -74,6 +74,7 @@ function step(back) {
 
     if (currentProblem == problems.length-1) {
       $('#next').hide();
+      $('#prev').hide();
       $('.give-name').show();
       $('.download-document').show();
     }
