@@ -242,7 +242,7 @@ EUCopyright.applyGuide = function(guide, question, answer) {
   }
   if (answer.explanation) {
     isAnswered = true;
-    $('#q-' + question.num + '-customexplanation').text(answer.explanation).slideDown();
+    $('#q-' + question.num + '-customexplanation').html(answer.explanation).slideDown();
   } else {
     $('#q-' + question.num + '-customexplanation').slideUp();
   }

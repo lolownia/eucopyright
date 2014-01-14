@@ -54,7 +54,9 @@ function start(btn) {
   }
 }
 
-function step() {
+function step(back) {
+  if (back && currentProblem > 1)
+    currentProblem = currentProblem - 2;
   if (currentProblem < problems.length) { // not at end yet
 
     $('#step-problem h2')[0].innerHTML = problems[currentProblem][1];
