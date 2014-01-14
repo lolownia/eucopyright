@@ -5,7 +5,7 @@
     de: "Hattest du schon einmal Probleme auf Online-Dienste aus einem anderen EU-Staat als dem, in dem du lebst, zuzugreifen?"
     fr: "Avez vous rencontré des problèmes en essayant d'accéder à des services en ligne venant d'un autre pays membre de l'UE que celui dans lequel vous vivez ?"
     es: ¿Se ha encontrado con problemas al intentar acceder a servicios online en un estado miembro de la Unión Europea distinto de aquel en el que vive?
-    it: Hai riscontrato problemi accedendo a servizi online in un paese membro dell'Unione europea, apparte quello in cui vivi?
+    it: "Hai riscontrato problemi accedendo a servizi online in un paese membro dell'Unione europea, apparte quello in cui vivi?"
     nl: Heb je ooit problemen ondervonden wanneer je online diensten uit andere lidstaten dan jouw eigen land probeert te gebruiken?
   to: enduser
   type: multiple_choice
@@ -15,6 +15,7 @@
     details:
       en: "Please provide examples indicating the Member State, the sector and the type of content concerned (e.g. premium content such as certain films and TV series, audio-visual content in general, music, e-books, magazines, journals and newspapers, games, applications and other software)"
       de: "Bitte gib Beispiele mit deinem Land, dem Art des Inhalts an (z.B. Premium-Inhalte wie bestimmte Filme, TV-Serien, Musik, E-Books, Magazine, Zeitschriften und Zeitungen, Spiele, Anwendungen und andere Software)"
+      pl: "Proszę podać przykłady, wskazując na państwo członkowskie, sektor i rodzaj treści (np. treści płatne takie jak niektóre filmy i seriale telewizyjne, treści audiowizualne, muzyka, e-booki, magazyny, czasopisma i dzienniki, gry, aplikacje i oprogramowanie komputerowe)"
     fulltext: true
     odf:
       - action: mark
@@ -46,6 +47,7 @@
     details:
       en: "Please explain whether such problems, in your experience, are related to copyright or to other issues (e.g. business decisions relating to the cost of providing services across borders, compliance with other laws such as consumer protection)? Please provide examples indicating the Member State, the sector and the type of content concerned (e.g. premium content such as certain films and TV series, audio-visual content in general, music, e-books, magazines, journals and newspapers, games, applications and other software)."
       de: "Bitte beschreibe, ob diese Probleme deiner Erfahrung nach mit dem Urheberrecht oder mit anderen Problemen zusammenhängen (z.B. Unternehmensentscheidungen zu Kosten grenzüberschreitender Dienste, Einhaltung anderer Gesetze wie Verbraucherschutz)? Bitte gib Beispiele mit Mitgliedsstaat, Sektor und Art von Inhalt (z.B. Premium-Inhalte wie bestimmte Filme, TV-Serien, Musik, E-Books, Magazine, Zeitschriften und Zeitungen, Spiele, Anwendungen und andere Software)."
+      pl: "Proszę wyjaśnić, czy z Państwa doświadczenia wynika, że problemy te są związane z prawem autorskim czy innymi kwestiami (np. decyzjami biznesowymi związanymi z kosztami dostarczania usług transgranicznie, zgodność z innymi prawami, takimi jak ochrona konsumenta)? Proszę podać przykłady, wskazując na państwo członkowskie, sektor działaności i rodzaj treści (np. treści płatne takie jak niektóre filmy i seriale telewizyjne, treści audiowizualne, muzyka, e-booki, magazyny, czasopisma i dzienniki, gry, aplikacje i oprogramowania komputerowe)."
     fulltext: true
     odf:
       - action: mark
@@ -67,7 +69,8 @@
   text:
     pl: "[W szczególności, jeśli są Państwo posiadaczami praw autorskich bądź reprezentują Państwo organizację zbiorowego zarządzania:] Jak często spotykają się Państwo z prośbą o licencje wieloterytorialne? Jeśli to możliwe, proszę podać liczbę zapytań w skali roku oraz przykłady z informacją, z jakiego kraju członkowskiego i z jakiego sektora pochodziło zapytanie oraz jakiego rodzaju usług/treści dotyczyło."
     en: "How often are you asked to grant multi-territorial licences? Please indicate, if possible, the number of requests per year and provide examples indicating the Member State, the sector and the type of content concerned."
-    nl: Hoe vaak word je gevraagd om licenties over meerdere landen te verstrekken? Indien mogelijk, geef alsjeblief een indicatie van het aantal verzoeken per jaar en voorbeelden met vermelding van de lidstaat, sector en type werk in kwestie.
+    de: "Wie oft werden Sie aufgefordert, Mehrgebietslizenzen zu vergeben? Bitte nennen Sie, wenn möglich, die Anzahl der Anfragen pro Jahr und Beispiele, die die Mitgliedstaaten, die Branche und die Art der betreffenden Inhalte."
+    nl: "Hoe vaak word je gevraagd om licenties over meerdere landen te verstrekken? Indien mogelijk, geef alsjeblief een indicatie van het aantal verzoeken per jaar en voorbeelden met vermelding van de lidstaat, sector en type werk in kwestie."
   to: right holder or collective management organisation
   type: open_question
   explanation:
@@ -97,13 +100,16 @@
   text:
     pl: "[W szczególności, jeśli są Państwo posiadaczami praw autorskich bądź reprezentują Państwo organizację zbiorowego zarządzania:] Czy istnieją powody, dla których - nawet jeśli posiadają Państwo wszelkie niezbędne prawa obejmujące dane terytoria - w dalszym ciągu uznaliby Państwo za konieczne i uzasadnione, aby narzucać ograniczenia terytorialne dostarczycielom usług (na przykład po to, aby uniemożliwić dostęp do pewnych treści w wybranych krajach europejskich)?"
     en: "Are there reasons why, even in cases where you hold all the necessary rights for all the territories in question, you would still find it necessary or justified to impose territorial restrictions on a service provider (in order, for instance, to ensure that access to certain content is not possible in certain European countries)?"
-    nl: Zijn er redenen waarom, zelfs in zaken waar je alle noodzakelijke rechten beheert voor alle landen in kwestie, je het nog steeds noodzakelijk zou vinden om restricties per land op een aanbieder van diensten te leggen (bijvoorbeeld om ervoor te zorgen dat bepaalde werken niet toegankelijk zijn in bepaalde Europese landen)?
+    de: "Selbst wenn Sie alle nötigen Rechte haben, kann es Gründe geben, die territoriale Einschränkungen für einen Diensteanbieter rechtfertigen (z.B. um sicherzustellen, dass bestimmte Inhalte aus bestimmten EU-Mitgliedsländern nicht aufgerufen werden können)?"
+    nl: "Zijn er redenen waarom, zelfs in zaken waar je alle noodzakelijke rechten beheert voor alle landen in kwestie, je het nog steeds noodzakelijk zou vinden om restricties per land op een aanbieder van diensten te leggen (bijvoorbeeld om ervoor te zorgen dat bepaalde werken niet toegankelijk zijn in bepaalde Europese landen)?"
   to: "right holder, collective management organisation"
   type: multiple_choice
   options:
   - label: 'Yes'
     details:
       en: "Please explain by giving examples"
+      pl: "Proszę uzasadnić, podając przykłady"
+      de: "Bitte erklären Sie mit Beispielen"
     fulltext: true
     odf:
       - action: mark
@@ -125,13 +131,15 @@
   text:
     pl: "[W szczególności, jeśli reprezentują Państwo nadawcę lub dostawcę usług online:] Czy istnieją powody, dla których - nawet jeśli nabyli Państwo wszelkie niezbędne prawa obejmujące dane terytoria - w dalszym ciągu uznaliby Państwo za konieczne i uzasadnione, aby narzucać ograniczenia terytorialne odbiorcom swoich usług (na przykład po to, aby przekierować konsumenta na inną stronę niż ta, którą pierwotnie chce odwiedzić)?"
     en: "Are there reasons why, even in cases where you have acquired all the necessary rights for all the territories in question, you would still find it necessary or justified to impose territorial restrictions on the service recipient (in order for instance, to redirect the consumer to a different website than the one he is trying to access)?"
-    nl: Zijn er redenen waarom, zelfs in gevallen waar je alle noodzakelijke rechten verworven hebt voor alle landen in kwestie, je het nog steeds noodzakelijk zou vinden om beperkingen per land op een aanbieder van diensten te leggen (om er bijvoorbeeld voor te zorgen dat bepaalde werken niet toegankelijk zijn in bepaalde Europese landen)?
+    de: "Selbst wenn Sie alle nötigen Rechte haben, kann es Gründe geben, die territoriale Einschränkungen für einen Dienstenutzer rechtfertigen (z.B. um einen Nutzer auf eine andere Webseite als die angeforderte weiterzuleiten)?"
+    nl: "Zijn er redenen waarom, zelfs in gevallen waar je alle noodzakelijke rechten verworven hebt voor alle landen in kwestie, je het nog steeds noodzakelijk zou vinden om beperkingen per land op een aanbieder van diensten te leggen (om er bijvoorbeeld voor te zorgen dat bepaalde werken niet toegankelijk zijn in bepaalde Europese landen)?"
   to: "broadcaster, service provider"
   type: multiple_choice
   options:
   - label: 'Yes'
     details:
       en: "Please explain by giving examples"
+      pl: "Proszę uzasadnić, podając przykłady"
     fulltext: true
     odf:
       - action: mark
@@ -154,13 +162,15 @@
     pl: "Czy uważają Państwo, że na poziomie UE potrzebne są dalsze środki (legislacja lub inne, w tym rozwiązania proponowane przez rynek) w celu zwiększenia transgranicznej dostępności treści na Wspólnym Rynku, przy jednoczesnym zapewnieniu odpowiedniego poziomu ochrony posiadaczom praw?"
     en: "Do you think that further measures (legislative or non-legislative, including market- led solutions) are needed at EU level to increase the cross-border availability of content services in the Single Market, while ensuring an adequate level of protection for right holders?"
     de: "Sollten weitere Maßnahmen (Gesetze oder andere, inkl. Initiativen des Marktes) auf EU-Ebene angestoßen werden, um die grenzübergreifende Verfügbarkeit von Inhalten zu gewährleisten?"
-    nl: Denk je dat verdere maatregelen (middels wetgeving of niet middels wetgeving, zoals de markt het laten oplossen) op Europees niveau nodig zijn om diensten die werken aanbieden beter bereikbaar te maken over de grenzen binnen de Europese markt, terwijl er een adequaat niveau van bescherming gehandhaafd blijft voor de houders van rechten?
+    nl: "Denk je dat verdere maatregelen (middels wetgeving of niet middels wetgeving, zoals de markt het laten oplossen) op Europees niveau nodig zijn om diensten die werken aanbieden beter bereikbaar te maken over de grenzen binnen de Europese markt, terwijl er een adequaat niveau van bescherming gehandhaafd blijft voor de houders van rechten?"
   to: everyone
   type: multiple_choice
   options:
   - label: 'Yes'
     details:
       en: "Please explain"
+      pl: "Proszę wyjaśnić"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -172,6 +182,7 @@
   - label: 'No'
     details:
       en: "Please explain"
+      pl: "Proszę wyjaśnić"
     fulltext: true
     odf:
       - action: mark
@@ -189,6 +200,7 @@
   text:
     pl: 'Czy wystarczająco jasno określono zakres prawa "udostępniania" w przypadkach transgranicznych, tj. wtedy, gdy treści rozpowszechniane są poza granicami państw?'
     en: Is the scope of the “making available” right in cross-border situations – i.e. when content is disseminated across borders – sufficiently clear?
+    de: Ist der Umfang des Rechts auf "Zugänglichmachung" in grenzüberschreitenden Situation - also wenn Inhalt über Grenzen hinweg verbreitet werden - klar genug?
     nl: Is de reikwijdte van het recht om iets 'beschikbaar te maken' in situaties over de grenzen heen - dat is als er werken over de grens gedistribueerd worden - voldoende helder?
   to: everyone
   type: multiple_choice
@@ -200,6 +212,8 @@
   - label: 'No'
     details:
       en: 'Please explain how this could be clarified and what type of clarification would be required (e.g. as in "targeting" approach explained above, as in "country of origin" approach)'
+      de: 'Bitte erklären Sie wie dies besser klargestellt werden kann und welche Art von Klarstellung nötig wäre'
+      pl: 'Proszę zasugerować, w jaki sposób należy doprecyzować ten zakres (np. zgodnie z podejściem "ukierunkowywania" wyjaśnionego powyżej, zgodnie z podejściem "państwa źródła")'
     fulltext: true
     odf:
       - action: mark
@@ -217,6 +231,7 @@
   text:
     pl: '[W szczególności, jeśli są Państwo posiadaczami praw autorskich:] Czy wyjaśnienie zakresu terytorialnego prawa "udostępniania" może wpłynąć na rozpoznanie Państwa praw (niezależnie od tego, czy są Państwo autorami czy nie oraz czy przenieśli Państwo prawa czy nie), wynagrodzenia lub egzekwowanie praw (włącznie z dostępnością roszczeń zakazowych)?'
     en: "Could a clarification of the territorial scope of the “making available” right have an effect on the recognition of your rights (e.g. whether you are considered to be an author or not, whether you are considered to have transferred your rights or not), on your remuneration, or on the enforcement of rights (including the availability of injunctive relief)?"
+    de: 'Könnte eine Klarstellung der territorialen Reichweite des Rechts auf "Zugänglichmachung" einen Effekt auf die Anerkennung Ihrer Rechte haben (z.B. ob Sie als Autor anerkannt werden oder nicht, ob Sie Ihre Rechte übertragen haben oder nicht), auf ihre Vergütung oder auf die Durchsetzung von Rechten (einschließlich von Unterlassungsverfügungen)?'
     nl: Zou een verduidelijking van de territoriale werkingssfeer van het recht "ter beschikking te stellen" een effect kunnen hebben op de erkenning van uw rechten (bijvoorbeeld of u wordt beschouwd de auteur te zijn of niet, of u nu geacht wordt uw rechten te hebben overgedragen of niet), op uw beloning, of op de handhaving van rechten (waaronder de beschikbaarheid van voorlopige voorziening*)?
   to: right holder
   type: multiple_choice
@@ -224,6 +239,8 @@
   - label: 'Yes'
     details:
       en: "Please explain how such potential effects could be addressed"
+      pl: "Proszę wyjaśnić jak można by temu zaradzić tego typu potencjalnym efektom"
+      de: "Bitte erklären Sie, wie mit solchen möglichen Effekten umgegangen werden könnte"
     fulltext: true
     odf:
       - action: mark
@@ -245,6 +262,7 @@
   text:
     pl: "[W szczególności, jeśli dostarczają Państwo usługi online lub są posiadaczami praw autorskich:] Czy zastosowanie dwóch uprawnień do pojedynczego aktu eksploatacji ekonomicznej w środowisku online (np. w przypadku ściągania) jest dla Państwa problemem?"
     en: "Does the application of two rights to a single act of economic exploitation in the online environment (e.g. a download) create problems for you?"
+    de: "Schafft die Anwendung von zwei Rechten auf einen einzigen Akt der wirtschaftlichen Ausbeutung im Online-Umfeld (z.B. ein Download) Probleme für Sie?"
     nl: Leidt het toepassen van twee rechten op een enkele daad van economische uitbating in de online omgeving (bijvoorbeeld een download) tot problemen voor u?
   to: "service provider, right holder"
   type: multiple_choice
@@ -252,6 +270,8 @@
   - label: 'Yes'
     details:
       en: 'Please explain what type of measures would be needed in order to address such problems (e.g. facilitation of joint licences when the rights are in different hands, legislation to achieve the "bundling of rights")'
+      de: 'Bitte erläutern Sie, welche Art von Maßnahmen notwendig wären, um solche Probleme anzugehen (z.B. die Förderung von gemeinsamen Lizenzen, wenn die Rechte in verschiedenen Händen sind; die Gesetzgebung für "Bündelung der Rechte")'
+      pl: 'Proszę wyjaśnić, jak należałoby rozwiązać powyższe problemy (np. ułatwienie licencji łączonych, kiedy jest kilku posiadaczy praw, rozwiązania legislacyjne mające na celu tworzenie "pakietów praw").'
     fulltext: true
     odf:
       - action: mark
@@ -271,7 +291,7 @@
 
 - num: 11
   text:
-    pl: "Czy podanie hiperłącza odnoszącego do utworu lub innego przedmiotu chronionego prawem autorskim, czy generalnie czy w specyficznych okolicznościach, powinno wymagać zezwolenia posiadacza praw?"
+    pl: "Czy podanie hiperłącza odnoszącego do utworu lub innego przedmiotu chronionego prawem autorskim, zawsze lub w niektórych przypadkach, powinno wymagać zezwolenia posiadacza praw?"
     en: "Should the provision of a hyperlink leading to a work or other subject matter protected under copyright, either in general or under specific circumstances, be subject to the authorisation of the rightholder?"
     de: "Sollte das Bereitstellen eines Hyperlinks, welcher zu einem urheberrechtlich geschützten Werk oder anderen Gegenstand führt, entweder im Allgemeinen oder unter bestimmten Umständen die Erlaubnis des Rechteinhabers erfordern?"
     fr: Est-ce que la mise à disposition d'un lien hypertexte menant à une œuvre ou à d'autres objets protégés en vertu du droit d'auteur, soit de manière générale ou dans des circonstances particulières, devrait être soumise à l'autorisation du titulaire des droits?
@@ -283,8 +303,9 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Czy uważają Pastwo, że powinno tak być w każdym przypadku, czy tylko w niektórych i dlaczego"
+      pl: "Czy uważają Państwo, że powinno tak być w każdym przypadku, czy tylko w niektórych i dlaczego."
       en: "Please explain whether you consider this to be the case in general, or under specific circumstances, and why"
+      de: "Bitte erkläre, ob das generell der Fall ist oder unter speziellen Umständnen und warum"
     fulltext: true
     odf:
       - action: mark
@@ -296,6 +317,8 @@
   - label: 'No'
     details:
       en: "Please explain whether you consider this to be the case in general, or under specific circumstances, and why (e.g. because it does not amount to an act of communication to the public – or to a new public, or because it should be covered by a copyright exception)"
+      de: "Bitte erkläre, ob das generell der Fall ist oder unter speziellen Umständen und warum (z.B. weil es kein Kommunikationsvorgang mit der Öffentlichkeit - oder mit einer neuen Öffentlichkeit - ist, oder weil es eine Urheberrechtsausnahme sein sollte)"
+      pl: 'Czy uważają Pastwo, że powinno tak być w każdym przypadku, czy tylko w niektórych i dlaczego (np. ponieważ działanie to nie jest równoważne z aktem publicznego udostępniania, w tym skierowanego do nowej publiczności,  lub powinno ono być uznane za wyjątek).'
     fulltext: true
     odf:
       - action: mark
@@ -311,9 +334,9 @@
 
 - num: 12
   text:
-    pl: "Czy przeglądanie strony internetowej, jeśli wiąże się to z dostępem do tymczasowej reprodukcji utworu lub innego przedmiotu chronionego prawem autorskim na ekranie i w pamięci podręcznej komputera użytkownika, czy generalnie czy w specyficznych okolicznościach,  powinno wymagać zezwolenia posiadacza praw?"
+    pl: "Czy przeglądanie strony internetowej, jeśli wiąże się to z dostępem do tymczasowej reprodukcji utworu lub innego przedmiotu chronionego prawem autorskim na ekranie i w pamięci podręcznej komputera użytkownika, zawsze lub w niektórych przypadkach,  powinno wymagać zezwolenia posiadacza praw?"
     en: "Should the viewing of a web-page where this implies the temporary reproduction of a work or other subject matter protected under copyright on the screen and in the cache memory of the user’s computer, either in general or under specific circumstances, be subject to the authorisation of the rightholder?"
-    de: "Soll das Betrachten einer Website, was ja bedeutet, dass urheberrechtsgeschützer Websiteinhalt kurzzeitig reproduziert werden könnte auf den Bildschirm oder in den Cache, entweder generell oder in bestimmten Fällen nur mit Erlaubnis des Rechteinhabers möglich sein?"
+    de: "Soll das Betrachten einer Website, was bedeutet, dass urheberrechtlich geschütze Webinhalte kurzzeitig auf dem Bildschirm oder im Speicher des Computers  reproduziert werden, entweder generell oder in bestimmten Fällen nur mit Erlaubnis des Rechteinhabers möglich sein?"
     nl: Moet het bekijken van een webpagina waar dit impliceert de tijdelijke reproductie van een werk of ander krachtens het auteursrecht beschermd materiaal op het scherm en in het cachegeheugen van de computer van de gebruiker, hetzij in het algemeen of in specifieke omstandigheden, afhankelijk zijn van de goedkeuring van de rechthebbende?
   to: everyone
   type: multiple_choice
@@ -321,7 +344,8 @@
   - label: 'Yes'
     details:
       en: "Please explain whether you consider this to be the case in general, or under specific circumstances, and why"
-      pl: "wyjaśnij czemu i czy zasada ma dotyczyć każdego przeglądania, czy tylko jakichś specyficznych przypadków"
+      pl: "Proszę wyjaśnić czemu i czy zasada ma dotyczyć każdego przeglądania, czy tylko jakichś specyficznych przypadków"
+      de: "Bitte erkläre, warum du glaubst, das sollte generell oder unter bestimmten Umständen der Fall sein und warum"
     fulltext: true
     odf:
       - action: mark
@@ -333,7 +357,7 @@
   - label: 'No'
     details:
       en: "Please explain whether you consider this to be the case in general, or under specific circumstances, and why (e.g. because it is or should be covered by a copyright exception)"
-      pl: " wyjaśnij czemu i czy zasada ma dotyczyć każdego przeglądania, czy tylko jakichś specyficznych przypadków"
+      pl: "Proszę wyjaśnić czemu i czy zasada ma dotyczyć każdego przeglądania, czy tylko jakichś specyficznych przypadków"
     fulltext: true
     odf:
       - action: mark
@@ -362,6 +386,7 @@
   - label: 'Yes'
     details:
       en: "Please explain by giving examples"
+      pl: "Proszę uzasadnić, podając przykłady"
     fulltext: true
     odf:
       - action: mark
@@ -383,6 +408,7 @@
   text:
     pl: "[W szczególności, jeśli są Państwo posiadaczami praw autorskich lub dostarczają usługi online:] Jakie byłyby konsekwencje stworzenia systemu prawnegoj pozwalającego na odsprzedawanie wcześniej nabytych cyfrowych treści? Proszę określić rodzaj rynku (rodzaj treści)."
     en: What would be the consequences of providing a legal framework enabling the resale of previously purchased digital content? Please specify per market (type of content) concerned.
+    de: "Was wäre die Konsequenz eines rechtlichen Rahmens für den Wiederverkauf von erworbenen, digitalen Inhalten? Bitte gehen Sie jeweils auf Markt (Inhaltstyp) ein."
     nl: Wat zouden de gevolgen zijn van het bieden van een wettelijk kader dat de wederverkoop van eerder gekochte digitale inhoud regelt? Gelieve te specificeren per markt (per type content).
   to: "right holder, service provider"
   type: open_question
@@ -396,6 +422,7 @@
   text:
     pl: "Czy stworzenie systemu rejestracji na poziomie europejskim pomogłoby w identyfikacji i licencjonowaniu utworów i innych przedmiotów prawa autorskiego?"
     en: Would the creation of a registration system at EU level help in the identification and licensing of works and other subject matter?
+    de: "Würde die Schaffung eines Registrierungssystems auf EU-Ebene bei der Identifizierung und der Lizenzierung von Werken und anderen Schutzgegenständen helfen?"
     nl: Zou de invoering van een registratiesysteem op EU-niveau helpen bij het identificeren en vergunnen van werken en andere onderwerpen?
   to: everyone
   type: multiple_choice
@@ -417,6 +444,7 @@
   text:
     pl: "Jakie byłyby potencjalne zalety takiego systemu?"
     en: What would be the possible advantages of such a system?
+    de: "Was wären die möglichen Vorteile eines solchen Systems?"
     nl: Wat zijn de mogelijke voordelen van een dergelijk systeem?
   to: everyone
   type: open_question
@@ -430,6 +458,7 @@
   text:
     pl: "Jakie byłyby potencjalne wady takiego systemu?"
     en: What would be the possible disadvantages of such a system?
+    de: "Was wären die möglichen Nachteile eines solchen Systems?"
     nl: Wat zijn de mogelijke nadelen van een dergelijk systeem?
   to: everyone
   type: open_question
@@ -443,6 +472,7 @@
   text:
     pl: "Jakie mogłaby być motywacja do rejestrowania utworów przez posiadaczy praw?"
     en: What incentives for registration by rightholders could be envisaged?
+    de: "Welche Anreize für die Registrierung könnte es für die Rechteinhaber geben?"
     nl: Welke prikkels voor registratie door de rechthebbenden kunnen worden overwogen?
   to: everyone
   type: open_question
@@ -456,6 +486,7 @@
   text:
     pl: "Jaka powinna być rola Unii Europejskiej w promowaniu upowszechnienia się identyfikatorów w sektorze kreatywnym i w promowaniu rozwoju oraz interoperacyjności baz danych o uprawnionych oraz udzielonych licencjach"
     en: "What should be the role of the EU in promoting the adoption of identifiers in the content sector, and in promoting the development and interoperability of rights ownership and permissions databases?"
+    de: "Was sollte die Rolle der EU bei der Förderung der Einführung von Indentifikatoren im Inhalte-Sektor und in der Förderung der Entwicklung und Interoperabilität von Rechteinhaber- und Berechtigungsdatenbanken sein?"
     nl: Wat moet de rol van de EU zijn bij het bevorderen van de goedkeuring van identificatielabels in de 'content' sector, en bij het bevorderen van de ontwikkeling en interoperabiliteit van rechteneigendom en machtigingen-databases?
   to: everyone
   type: open_question
@@ -469,7 +500,6 @@
   text:
     pl: "Czy obecne terminy ochrony prawnoautorskiej są wciąż odpowiednie w kontekście środowiska cyfrowego?"
     en: Are the current terms of copyright protection still appropriate in the digital environment?
-    es: "¿Siguen siendo los términos actuales de protección de derechos de autor apropiados en el entorno digital?"
     de: Sind die Längen der Schutzfristen im digitalen Zeitalter noch zeitgemäß?
     nl: Zijn de huidige termijnen van auteursrechtelijke bescherming nog steeds passend in de digitale omgeving?
   to: everyone
@@ -477,8 +507,9 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erkläre"
     fulltext: true
     odf:
       - action: mark
@@ -491,6 +522,7 @@
     details:
       pl: "Wyjaśnij, czy powinien być dłuższy, czy krótszy"
       en: "Please explain if they should be longer or shorter"
+      de: "Bitte erkläre, ob sie länger oder kürzer sein sollten"
     fulltext: true
     odf:
       - action: mark
@@ -518,8 +550,9 @@
   options:
   - label: 'Yes'
     details:
-      de: "Please explain by referring to specific cases"
-      pl: "Wyjaśnij w oparciu o konkretne przypadki"
+      en: "Please explain by referring to specific cases"
+      pl: "Proszę wyjaśnić w oparciu o konkretne przypadki"
+      de: "Bitte erklären Sie durch Nennung konkreter Fälle"
     fulltext: true
     odf:
       - action: mark
@@ -530,8 +563,9 @@
         key: P806
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -550,16 +584,18 @@
     pl: "Czy niektóre/wszystkie wyjątki powinny być obowiązkowe i jeśli tak, czy istnieje potrzeba większej harmonizacji takich wyjątków?"
     en: "Should some/all of the exceptions be made mandatory and, if so, is there a need for a higher level of harmonisation of such exceptions?"
     de: "Sollen einige oder alle Ausnahmen vom Urheberrecht verpflichtend in allen Mitgliedstaaten gelten? Wenn ja, sollen diese Ausnahmen in allen Ländern gleich ausgestaltet werden?"
-    fr: Est-ce que certaines/toutes les exceptions devraient être rendues obligatoires, et si oui y a-t-il besoin d'un plus haut niveau d'harmonisation de telles exceptions ?
-    es: ¿Deberían algunas/todas las excepciones tener carácter obligatorio? Y, si es así, ¿hay una necesidad de un mayor nivel de armonización de tales excepciones?
-    it: Dovrebbero alcune o tutte le eccezione essere obbligatorie e, in tal caso, c'è necessità di un livello superiore di armonizzazione per tali eccezioni?
-    nl: Moeten sommige / alle uitzonderingen verplicht worden gesteld en, zo ja, is er behoefte aan een hoger niveau van harmonisatie van dergelijke uitzonderingen?
+    fr: "Est-ce que certaines/toutes les exceptions devraient être rendues obligatoires, et si oui y a-t-il besoin d'un plus haut niveau d'harmonisation de telles exceptions ?"
+    es: "¿Deberían algunas/todas las excepciones tener carácter obligatorio? Y, si es así, ¿hay una necesidad de un mayor nivel de armonización de tales excepciones?"
+    it: "Dovrebbero alcune o tutte le eccezione essere obbligatorie e, in tal caso, c'è necessità di un livello superiore di armonizzazione per tali eccezioni?"
+    nl: "Moeten sommige / alle uitzonderingen verplicht worden gesteld en, zo ja, is er behoefte aan een hoger niveau van harmonisatie van dergelijke uitzonderingen?"
   to: everyone
   type: multiple_choice
   options:
   - label: 'Yes'
     details:
       en: "Please explain by referring to specific cases"
+      pl: "Proszę wyjaśnić w oparciu o konkretne przypadki"
+      de: "Bitte erklären Sie durch Nennung konkreter Fälle"
     fulltext: true
     odf:
       - action: mark
@@ -570,8 +606,9 @@
         key: P815
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -614,6 +651,8 @@
   - label: 'Yes'
     details:
       en: "Please explain why"
+      pl: "Proszę wyjaśnić dlaczego"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -625,6 +664,8 @@
   - label: 'No'
     details:
       en: "Please explain why"
+      pl: "Proszę wyjaśnić dlaczego"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -642,6 +683,7 @@
   text:
     pl: "Jeśli tak, w jaki sposób najlepiej byłoby uwzględnić taką elastyczność? (np. interpretacja sądów pastwowych i Trybunału Sprawiedliwości, okresowe rewizje dyrektyw, interpretacje Komisji Europejskiej, wbudowana elastyczność, np. w formie fair use lub fair dealing / otwartej normy, itp.)? Proszę wyjaśnić, wskazując na relatywne zalety i wady takiego podejścia, a także jego potencjalny wpływ na funkcjonowanie Rynku Wewnętrznego."
     en: "If yes, what would be the best approach to provide for flexibility? (e.g. interpretation by national courts and the ECJ, periodic revisions of the directives, interpretations by the Commission, built-in flexibility, e.g. in the form of a fair-use or fair dealing provision / open norm, etc.)? Please explain indicating what would be the relative advantages and disadvantages of such an approach as well as its possible effects on the functioning of the Internal Market."
+    de: "Falls ja, was wäre der beste Ansatz, um Flexibilität sicherzustellen? (z.B. Interpretation durch nationale Gerichte und den EuGH, periodische Revisionen der Richtlinien, Interpretationen durch die Kommission, eingebaute Flexibilität, z.B. in der Form einer Fair-Use- oder Fair-Deal-Regelung / offenen Norm, etc.)? Bitte erläutern Sie, was die relativen Vor- und Nachteile eines solchen Ansatzes wären sowie die möglichen Auswirkungen auf das Funktionieren des Binnenmarktes."
     nl: Zo ja, wat zou de beste aanpak zijn om te zorgen voor flexibiliteit? (zoals interpretatie door de nationale rechter en het Hof van Justitie, periodieke herzieningen van de richtlijnen, interpretaties door de Commissie, ingebouwde flexibiliteit, bijvoorbeeld in de vorm van een voorziening voor fair-use of fair dealing / open normen, etc.)? Gelieve uit te leggen door aan te geven wat de relatieve voor- en nadelen van een dergelijke aanpak zouden zijn, alsmede de mogelijke effecten op de werking van de interne markt.
   to: everyone
   type: open_question
@@ -655,6 +697,7 @@
   text:
     pl: "Czy na podstawie Państwa doświadczenia, terytorialny zakres ograniczeń i wyjątków stanowi problem?"
     en: "Does the territoriality of limitations and exceptions, in your experience, constitute a problem?"
+    de: "Stellt die Territorialität der Einschränkungen und Ausnahmen nach Ihrer Erfahrung ein Problem dar?"
     nl: Vormen de territorialiteit van de beperkingen en de uitzonderingen, in uw ervaring, een probleem?
   to: everyone
   type: multiple_choice
@@ -662,6 +705,8 @@
   - label: 'Yes'
     details:
       en: "Please explain why and specify which exceptions you are referring to"
+      pl: "Proszę wyjaśnić dlaczego i których wyjątków to dotyczy"
+      de: "Bitte erklären Sie warum und spezifizieren Sie die Ausnahmen"
     fulltext: true
     odf:
       - action: mark
@@ -673,6 +718,8 @@
   - label: 'No'
     details:
       en: "Please explain why and specify which exceptions you are referring to"
+      pl: "Proszę wyjaśnić dlaczego i których wyjątków to dotyczy"
+      de: "Bitte erklären Sie warum und spezifizieren Sie die Ausnahmen"
     fulltext: true
     odf:
       - action: mark
@@ -690,6 +737,7 @@
   text:
     pl: 'Jeżeli ograniczenia i wyjątki ustanowione na poziomie krajowym miałyby być skuteczne za granicą, w jaki sposób powinno się uregulować kwestię "słusznej rekompensaty", jeżeli taka rekompensata jest częścią wyjątku? (np. kto płaci komu, gdzie?)'
     en: "In the event that limitations and exceptions established at national level were to have cross-border effect, how should the question of “fair compensation” be addressed, when such compensation is part of the exception? (e.g. who pays whom, where?)"
+    de: 'Sollten die nationalen Einschränkungen und Ausnahmen grenzüberschreitende Effekte haben, wie sollte die Frage nach "fairer Vergütung" beantwortet werden, wenn solche Vergütungen teil einer Ausnahme sein? (z.B. wer bezahlt wen, wo?)'
   to: everyone
   type: open_question
   odf:
@@ -704,12 +752,17 @@
     en: |
       (a) [In particular if you are an institutional user:] Have you experienced specific problems when trying to use an exception to preserve and archive specific works or other subject matter in your collection?
       (b) [In particular if you are a right holder:] Have you experienced problems with the use by libraries, educational establishments, museum or archives of the preservation exception?
+    de: |
+      (a) [Speziell, wenn Sie ein institutioneller Nutzer sind:] Hatten Sie konkrete Problemen bei der Verwendung von Ausnahmen um spezifische Arbeiten oder andere Güter Ihrer Sammlung zu erhalten oder zu archivieren?
+      (b) [Speziell, wenn Sie ein Rechteinhaber sind:] Hatten Sie Probleme mit der Verwendung von Erhaltungsausnahmen durch Bibliotheken, Bildungsanstalten, Museen oder Archiven?
   to: switch
   type: multiple_choice
   options:
   - label: 'Yes'
     details:
       en: "Please explain, by Member State, sector, and the type of use in question."
+      de: "Bitte erklären Sie, nach Mitgliedstaat, Sektor und Nutzungstyp"
+      pl: "Proszę uzasadnić, podając państwo członkowskie, sektor działalności i rodzaj zastosowania wyjątków."
     fulltext: true
     odf:
       - action: mark
@@ -731,6 +784,7 @@
   text:
     pl: "Jeśli pojawiają się problemy, w jaki sposób najlepiej je rozwiązać?"
     en: "If there are problems, how would they best be solved?"
+    de: "Falls es Probleme gibt, wie könnte man diese am Besten lösen?"
   to: everyone
   type: open_question
   odf:
@@ -743,6 +797,7 @@
   text:
     pl: "Jeśli uważają Państwo, że potrzebne jest rozwiązanie legislacyjne, jakie byłyby jego główne elementy? Jakie aktywności instytucji-beneficjentów powinno ono obejmować i na jakich warunkach?"
     en: "If your view is that a legislative solution is needed, what would be its main elements? Which activities of the beneficiary institutions should be covered and under which conditions?"
+    de: "Falls Sie glauben, dass eine gesetzliche Lösung gebraucht wird, was wären ihre Hauptbestandteile? Welche Tätigkeiten der begünstigten Institutionen sollten erfasst werden und unter welchen Bedingungen?"
   to: everyone
   type: open_question
   odf:
@@ -755,6 +810,7 @@
   text:
     pl: "Jeśli uważają Państwo, że potrzebne jest rozwiązanie innego rodzaju, jakie ono by było?"
     en: "If your view is that a different solution is needed, what would it be?"
+    de: "Falls Sie glauben, dass eine andere Lösung gebraucht wird, welche sollte das sein?"
   to: everyone
   type: open_question
   odf:
@@ -785,6 +841,7 @@
   text:
     pl: "Jeśli pojawiają się problemy, w jaki sposób najlepiej je rozwiązać?"
     en: "If there are problems, how would they best be solved?"
+    de: "Wenn es Probleme gibt, wie sollten sie gelöst werden?"
   to: everyone
   type: open_question
   odf:
@@ -809,6 +866,7 @@
   text:
     pl: "Jeśli uważają Państwo, że potrzebne jest rozwiązanie innego rodzaju, jakie ono by było?"
     en: "If your view is that a different solution is needed, what would it be?"
+    de: "Falls Sie glauben, dass eine andere Lösung gebraucht wird, welche sollte das sein?"
   to: everyone
   type: open_question
   odf:
@@ -833,6 +891,7 @@
   - label: 'Yes'
     details:
       en: "Please explain with specific examples"
+      pl: "Proszę wyjaśnić na podstawie konkretnych przypadków"
     fulltext: true
     odf:
       - action: mark
@@ -896,6 +955,7 @@
   - label: 'Yes'
     details:
       en: "Please explain why and how it could best be achieved"
+      pl: "Proszę wyjaśnić dlaczego i jak to może zostać osiągnięte"
     fulltext: true
     odf:
       - action: mark
@@ -906,7 +966,7 @@
         key: P1111
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić dlaczego"
       en: "Please explain"
     fulltext: true
     odf:
@@ -930,7 +990,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić dlaczego"
       en: "Please explain"
     fulltext: true
     odf:
@@ -942,7 +1002,7 @@
         key: P1126
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić dlaczego"
       en: "Please explain"
     fulltext: true
     odf:
@@ -960,7 +1020,7 @@
 - num: 42
   text:
     pl: |
-      (a) [W szczególności, jeśli są Państwo użytkownikami końcowymi/konsumentami:] Czy doświadczyli Państwo szczególnych problemów przy próbach korzystania z utworów lub innych przedmiotów prawa autorskiego w ramach nauczania, w tym transgranicznie?"
+      (a) [W szczególności, jeśli są Państwo użytkownikami końcowymi/konsumentami:] Czy doświadczyli Państwo szczególnych problemów przy próbach korzystania z utworów lub innych przedmiotów prawa autorskiego w ramach nauczania, w tym transgranicznie?
       (b) [W szczególności, jeśli są Państwo posiadaczami praw autorskich:] Czy doświadczyli Państwo szczególnych problemów wynikających ze sposobu, w jaki utwory i inne przedmioty prawa autorskiego wykorzystywane są w ramach nauczania, w tym transgranicznie?
     en: |
       (a) [In particular if you are an end user/consumer or an institutional user:] Have you experienced specific problems when trying to use works or other subject-matter for illustration for teaching, including across borders?
@@ -970,7 +1030,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić dlaczego"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1040,7 +1100,7 @@
 - num: 47
   text:
     pl: |
-      (a) [W szczególności, jeśli są Państwo użytkownikami końcowymi/konsumentami:] Czy doświadczyli Państwo szczególnych problemów przy próbach korzystania z utworów lub innych przedmiotów prawa autorskiego w kontekście projektów/działalności badawczej, w tym transgranicznie?"
+      (a) [W szczególności, jeśli są Państwo użytkownikami końcowymi/konsumentami:] Czy doświadczyli Państwo szczególnych problemów przy próbach korzystania z utworów lub innych przedmiotów prawa autorskiego w kontekście projektów/działalności badawczej, w tym transgranicznie?
       (b) [W szczególności, jeśli są Państwo posiadaczami praw autorskich:] Czy doświadczyli Państwo szczególnych problemów wynikających ze sposobu, w jaki utwory i inne przedmioty prawa autorskiego wykorzystywane są w kontekście projektów/działalności badawczej, w tym transgranicznie?
     en: |
       (a) [In particular if you are an end user/consumer or an institutional user:] Have you experienced specific problems when trying to use works or other subject matter in the context of research projects/activities, including across borders?
@@ -1050,7 +1110,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić dlaczego"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1109,6 +1169,7 @@
   - label: 'Yes'
     details:
       en: "Please explain by giving examples"
+      pl: "Proszę uzasadnić, podając przykłady"
     fulltext: true
     odf:
       - action: mark
@@ -1165,7 +1226,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1177,7 +1238,7 @@
         key: P1369
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1276,6 +1337,7 @@
   - label: 'Yes'
     details:
       en: "Please explain by giving examples"
+      pl: "Proszę uzasadnić, podając przykłady."
     fulltext: true
     odf:
       - action: mark
@@ -1306,7 +1368,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1318,7 +1380,7 @@
         key: P1449
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1346,7 +1408,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1358,7 +1420,7 @@
         key: P1472
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1422,7 +1484,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1434,7 +1496,7 @@
         key: P1510
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1458,7 +1520,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1470,7 +1532,7 @@
         key: P1526
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1506,7 +1568,7 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1518,7 +1580,7 @@
         key: P1544
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1553,7 +1615,7 @@
         key: P1554
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
     fulltext: true
     odf:
@@ -1596,6 +1658,7 @@
   text:
     pl: "Jeśli zidentyfikowali Państwo problemy związane z obecnymi funkcjonowaniem systemu opłat, jakie widzą Państwo rozwiązania?"
     en: "If you have identified specific problems with the current functioning of the levy system, how would these problems best be solved?"
+    de: "Wenn Sie spezielle Probleme mit der aktuellen Funktionsweise des Abgabensystems identifiziert haben, wie würden Sie diese Probleme am besten lösen?"
   to: everyone
   type: open_question
   odf:
@@ -1624,13 +1687,15 @@
   text:
     pl: "Czy istnieje potrzeba działania na poziomie europejskim (na przykład w celu  zakazania stosowania określonych postanowień umownych)?"
     en: Is there a need to act at the EU level (for instance to prohibit certain clauses in contracts)?
+    de: Gibt es die Notwendigkeit auf EU-Ebene zu handeln (z.B. durch Verbot bestimmter Vertragsklauseln)?
   to: everyone
   type: multiple_choice
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -1642,6 +1707,7 @@
   - label: 'No'
     details:
       en: "Please explain why"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -1675,13 +1741,15 @@
   text:
     pl: "Czy system sankcji cywilnych w UE powinien być bardziej wydajny w przypadku naruszeń dokonanych w celu komercyjnym?"
     en: Should the civil enforcement system in the EU be rendered more efficient for infringements of copyright committed with a commercial purpose?
+    en: "Sollte das System der zivilrechtliche Durchsetzung in der EU effizienter bei gewerblichen Urheberrechtsverletzungen werden?"
   to: everyone
   type: multiple_choice
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -1692,8 +1760,9 @@
         key: P1612
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -1711,6 +1780,7 @@
   text:
     pl: "Czy obecny system prawny jest wystarczająco jasny, aby pozwolić na zadowalające zaangażowanie pośredników (takich jak dostawcy usług internetowych, brokerzy reklamowi, dostawcy usług płatniczych, rejestratorzy domen, itd.) w ograniczanie naruszeń prawa autorskiego dokonywanych w celach komercyjnych? Jeżeli nie, to jakie środki byłyby przydatne w celu usprawnienia współpracy pośredników?"
     en: "In particular, is the current legal framework  clear enough to allow for  sufficient involvement of intermediaries (such as Internet service providers, advertising brokers, payment service providers, domain name registrars, etc.) in inhibiting online copyright infringements with a commercial purpose? If not, what measures would be useful to foster the cooperation of intermediaries?"
+    de: "Ist der derzeitige Rechtsrahmen klar genug, um für eine ausreichende Beteiligung von Vermittlern (wie Internet Service Providern, Werbevermittlern, Zahlungsanbietern, Domain-Registraren, etc.) bei der Hemmung von gewerblicher Online-Urheberrechtsverletzungen zu ermöglichen? Wenn nicht, welche Maßnahmen wären sinnvoll, um die Zusammenarbeit von Intermediären zu fördern?"
   to: everyone
   type: open_question
   odf:
@@ -1732,8 +1802,9 @@
   options:
   - label: 'Yes'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -1744,8 +1815,9 @@
         key: P1626
   - label: 'No'
     details:
-      pl: "Wyjaśnij dlaczego"
+      pl: "Proszę wyjaśnić"
       en: "Please explain"
+      de: "Bitte erklären Sie"
     fulltext: true
     odf:
       - action: mark
@@ -1763,7 +1835,7 @@
   text:
     pl: "Czy UE powinna starać się o wprowadzenie jednolitego prawa autorskiego UE jako sposobu na ustanowienie spójnych ram dla uprawnień i wyjątków od prawa autorskiego na terenie całej UE, jak również jednolitych ram egzekwowania praw?"
     en: "Should the EU pursue the establishment of a single EU Copyright Title, as a means of establishing a consistent framework for rights and exceptions to copyright across the EU, as well as a single framework for enforcement?"
-    de: Soll die EU ein gemeinsames europäisches Urheberrecht verabschieden, das in allen Ländern die gleichen Regeln für Rechte, Ausnahmen und Durchsetzung festlegt?
+    de: "Soll die EU ein gemeinsames europäisches Urheberrecht verabschieden, das in allen Ländern die gleichen Regeln für Rechte, Ausnahmen und Durchsetzung festlegt?"
   to: everyone
   type: multiple_choice
   options:

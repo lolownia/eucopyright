@@ -1,10 +1,15 @@
 body {
-  background: #04000e url("../img/30c3/vector.jpg") no-repeat;
+  background-color: #EDECE7;
+  background-image: url("../img/pk_bg.png");
+  background-position: 50% 0;
+  background-repeat: no-repeat;  
   /* cc-by http://www.thevectorart.com/free-abstract-background-vector-art-219.html */
   /* 0 0 no-repeat, url("../img/30c3/30c3-bg.png"); */
   background-size: 100%;
   margin-bottom: 6em;
   width: 100%;
+
+  
 }
 
 a img { border: 0; }
@@ -19,13 +24,13 @@ ul {
   padding: 0;
   margin-top: 1em;
 }
-@media (min-width: 992px) { ul {
+/*@media (min-width: 992px) { ul {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   -ms-column-count: 2;
   -o-column-count: 2;
   column-count: 2;
-} }
+} }*/
 ul li {
   line-height: 1.4em;
   margin-bottom: .4em;
@@ -47,17 +52,18 @@ ul li label .problem {
 .container.step-end #step-end.jumbotron {
   display: block;
 }
-#questions, .download-document {
+#questions, #question-titles, #question-override, .download-document {
   display: none;
 }
 #step-problem h2:first-of-type,
 #step-end h2:first-of-type {
   padding: 0 0 .5em;
 }
-div.radio label,
+
+/*div.radio label,
 div.radio:not(.isChecked) {
   display: none;
-}
+} // fnp */ 
 
 blockquote.guide {
   line-height: 1.5em;
@@ -69,4 +75,24 @@ blockquote.guide {
 #credits {
   float: right;
   color: #ccc;
+}
+
+.jumbotron {
+    font-size: inherit !important;
+}
+
+#pklogo {
+    padding: 0px 0px 0px 80px;
+}
+
+#fnplogo {
+    position: absolute;
+    right: 60px;
+}
+ul.emph li {
+    font-weight: bold;
+}
+
+#header {
+    margin-left: 47px;
 }
