@@ -14,7 +14,7 @@ body {
 
 a img { border: 0; }
 
-a {
+.panel-body a {
     text-decoration: underline;
 }
 
@@ -78,7 +78,7 @@ blockquote.guide {
 
 #credits {
   float: right;
-  color: #ccc;
+  color: #aaa;
 }
 
 .jumbotron {
