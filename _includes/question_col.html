@@ -1,12 +1,12 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">
-          <!--{{ question.num }}.-->
           {% if question.text[page.language] %}
             {{ question.text[page.language]|newline_to_br }}
           {% else %}
             {{ question.text.en|newline_to_br }}
           {% endif %}
+          (Pytanie Komisji Europejskiej nr&nbsp;{{ question.num }})
         </h3>
       </div>
       <div class="panel-body">

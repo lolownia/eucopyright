@@ -22,7 +22,7 @@ function start(btn) {
     var qtitle = $("#title-" + key).eq(0).text();
     var override_questions = $("#override-"+key);
     if (override_questions.length > 0) {
-      $(".q-" + key.substr(1) + " .panel-title").text(override_questions.eq(0).text());
+      $(".q-" + key.substr(1) + " .panel-title").text(override_questions.eq(0).text() + " (Pytanie Komisji Europejskiej nr&nbsp;"+key.substr(1)+")");
     }
 
     return [[key, qtitle + ' (Pyt. ' + (i+1) + ')']];
