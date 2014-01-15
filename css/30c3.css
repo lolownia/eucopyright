@@ -93,6 +93,15 @@ blockquote.guide {
     position: absolute;
     right: 60px;
 }
+#trustlogo {
+    position: absolute;
+    right: 300px;
+}
+#trustlogo img {
+    height: 130px;
+    margin-top: -25px;
+}
+
 ul.emph li {
     font-weight: bold;
 }
